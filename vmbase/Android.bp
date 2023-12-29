@@ -39,6 +39,9 @@ cc_defaults {
     sanitize: {
         hwaddress: false,
     },
+    lto: {
+        never: true,
+    },
 }
 
 cc_defaults {
